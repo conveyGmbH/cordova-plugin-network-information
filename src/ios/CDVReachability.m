@@ -142,6 +142,8 @@ static void CDVReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkRe
             retVal->reachabilityRef = reachability;
             retVal->localWiFiRef = NO;
         }
+        else
+            CFRelease(reachability);
     }
     return retVal;
 }
@@ -156,6 +158,8 @@ static void CDVReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkRe
             retVal->reachabilityRef = reachability;
             retVal->localWiFiRef = NO;
         }
+        else
+            CFRelease(reachability);
     }
     return retVal;
 }
