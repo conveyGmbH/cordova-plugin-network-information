@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-network-information",
-  "version": "1.0.2.1-dev",
-  "description": "Cordova Network Information Plugin (version by convey 1.0.2.1-dev with enhancements for iOS)",
+  "version": "1.0.2-dev",
+  "description": "Cordova Network Information Plugin",
   "cordova": {
     "id": "cordova-plugin-network-information",
     "platforms": [
